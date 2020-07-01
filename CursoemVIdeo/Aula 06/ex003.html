@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World...</title>
+    <style>
+        h1 {  /*comentario em CSS*/
+            background-color: black;
+            color: darkslategrey;
+            font: 40pt Arial;
+            }
+        body {
+            background-color: burlywood;
+            }
+    </style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>Já me livrei da maldição</p><!-- Isso é comentario em HTML-->
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //Number.parseInt tranforma string em Inteiro
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: ')) //Number.parseFloat tranforma string em Real
+        var n3 = Number(window.prompt('Digite outro número: ')) //Number tranforma string em numero
+        var soma = n1 + n2 + n3
+        window.alert(`A soma dos valores ${n1}, ${n2} e ${n3} é ${soma}`)//String(var) tranforma em string o number
+        //(number + number) para soma
+        //(string + string) para concatenação
+
+        //> `O Àluno ${name} com a ${idade} anos tirou a nota ${nota}`
+        //var name = 'Kaká'
+        //var idade = 41
+        //var nota = 8
+
+    </script>
+</body>
+</html>
