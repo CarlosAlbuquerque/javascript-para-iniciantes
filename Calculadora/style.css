@@ -1,18 +1,14 @@
-#title{
-    font-family: Arial;
-    font-size: 20pt;
-    margin: 1pt;
+body{
+    background-color: violet;
+    align-items: center;
+
 }
+
 .main{
-    margin: 1pt;
+
+
 }
-.button{
-    width: 36pt;
-    height: 36pt;
-    font-size: 15pt;
-    margin: 2;
-}
-.textview{
-    width: 150pt;
-    height: 20pt;
+
+#one{
+    border-radius: 8px;
 }
