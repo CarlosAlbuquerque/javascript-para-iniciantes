@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(68, 125, 199);
+    align-items: center;
+} 
+div#area{
+    font: normal 18pt Arial;
+    text-align: center;    
+    background-color: rosybrown;
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius:  8px;
+}
