@@ -1,15 +1,8 @@
-# NextLevel
-# Ecoleta
+# Curso em vídeo
+Curso realizado na plataforma Curso em vídeo do curso Javascript e ECMAScript para iniciantes, com diversos projetos.
 
-Ecoleta é um projeto realizado durante a semana Next Level da Rocketseat.
+# Origamid
+Curso realizado na plataforma Origamid do curso Javascript Completo ES6+, com diversos projetos.
 
-## Instalação
-
-
-Para iniciar o server utilizar:
-
-```bash
-npm start
-```
-## Contribuição 
-Paulão Marreta, ensinando a utilizar o GitHub <3 
+# Starter
+Curso realizado na plataforma Origamid do curso de Javascript básico.
