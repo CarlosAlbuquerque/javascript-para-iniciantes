@@ -5,4 +5,7 @@ Curso realizado na plataforma Curso em vídeo do curso Javascript e ECMAScript p
 Curso realizado na plataforma Origamid do curso Javascript Completo ES6+, com diversos projetos.
 
 # Starter
-Curso realizado na plataforma Origamid do curso de Javascript básico.
+Curso realizado na plataforma Rocketseat do curso de Javascript básico.
+
+# Discover
+Curso realizado na plataforma Rocketseat do curso de Javascript básico.
