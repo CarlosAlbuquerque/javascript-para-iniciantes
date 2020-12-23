@@ -7,7 +7,7 @@
 
     C = (F - 32) * 5/9
 
-    F = C * 9/5 + 35
+    F = C * 9/5 + 32
 
 */
 
@@ -30,7 +30,7 @@ function transformDegree(degree){
 
     if (celsiustExists) {
         newDegree = Number(degree.toUpperCase().replace("C", " "))
-        formula = celsius => celsius * 9/5 + 35
+        formula = celsius => celsius * 9/5 + 32
         degreeSign = "F"
     }
         
