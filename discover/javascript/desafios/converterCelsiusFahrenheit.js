@@ -11,8 +11,6 @@
 
 */
 
-let degree = '100F'
-
 function transformDegree(degree){
 
     const fahrenheitExists = degree.toUpperCase().includes('F') // vai retorna ou true ou false
