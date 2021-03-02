@@ -17,4 +17,5 @@ function ItsPrime(number){
     return prime = true
 }
 
+
 displayPrimeNumbers(15)
