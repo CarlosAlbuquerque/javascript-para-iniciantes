@@ -2,10 +2,7 @@
 
 function displayPrimeNumbers(limit){
     for(let number = 2; number <= limit; number++){
-
-    const itsPrime = ItsPrime(number)
-
-        if (itsPrime)console.log(number)
+        if (ItsPrime(number))console.log(number)
     }
 }
 
@@ -16,8 +13,9 @@ function ItsPrime(number){
         if (number % div === 0) {
             return prime = false
         }
-        return prime = true
     }
+    return prime = true
 }
+
 
 displayPrimeNumbers(15)
