@@ -1,4 +1,5 @@
 // Crie um celular utilizando uma função que recebe os valores
+// camelCase umDoisTresQuatro
 
 function createCell(brand, model, screenSize, batteryCapacity) {
     return{
