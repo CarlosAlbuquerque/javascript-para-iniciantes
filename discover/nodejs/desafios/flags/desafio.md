@@ -10,3 +10,4 @@ O segundo irá importar a função e passar a flag desejada.
 Iremos rodar no terminal o segundo arquivos passando as flags --name e --greeting
 para que seja impresso no terminal a saudaçãp e nome da pessoa.
 
+Para rodar --> node impGetFlag --name "Carlos Albuquerque" --greeting "Olá, tudo bem?"
