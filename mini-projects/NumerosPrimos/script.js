@@ -1,7 +1,7 @@
 // Criar uma função para mostrar os números primos.
 
 function displayPrimeNumbers(limit){
-    for(let number = 2; number <= limit; number++){
+    for(let number = 1; number <= limit; number++){
         if (ItsPrime(number))console.log(number)
     }
 }
@@ -18,4 +18,4 @@ function ItsPrime(number){
 }
 
 
-displayPrimeNumbers(15)
+displayPrimeNumbers(20)

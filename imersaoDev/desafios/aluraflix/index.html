@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aluraflix</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Aluraflix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+    <form onsubmit="send()">
+        <p class="page-subtitle">
+            1 - Digite o nome do filme. <br>
+            2 - Digite uma URL dda imagem do filme.
+        </p>
+            <input type="text" name="movieTitle" id="movieTitle"> 
+            <input type="text" name="movieImg" id="movieImg">  
+            <input type="button" value="Enviar" onclick= "send()">
+    </form>
+
+    <div class="movie" id="movieTilte">
+    </div>
+    <div class="movie" id="movieImg">
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
