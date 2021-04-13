@@ -1,0 +1,20 @@
+#container{
+    width: 300px;
+}
+.m-40{
+    margin: 40px;
+}
+
+h1, h2{
+    color: green;
+    font-size: 60px;
+    background: gray; 
+    font-family: 'Roboto', sans-serif;
+ }
+
+h2{
+    color: red;
+    font-size: 40px;
+    background: gray; 
+    font-family: 'Roboto', sans-serif;
+}
