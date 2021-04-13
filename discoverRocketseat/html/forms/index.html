@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+
+    <form id = "Contato" action="" method="GET">
+
+        <fieldset>
+
+            <legend>Contato</legend>
+
+            <label for= "name"> Nome: </label>
+            <input autofocus id = "name" type="text">
+
+            <label for= "lastName"> Sobrenome: </label>
+            <input id = "lastName" type="text">
+
+
+        </fieldset>
+
+    </form>
+
+
+    <form id="fruitsForm" action="" method="POST">
+
+        <fieldset>
+
+            <legend>Frutas</legend>
+
+
+            <input type="text" list="fruitsData" placeholder="Escolha uma fruta"/>
+            <datalist id = "fruitsData">
+                <option>Morango</option>
+                <option>Manga</option>
+                <option>Banana</option>
+                <option>Laranja</option>
+                <option>Uva</option>
+            </datalist>
+
+            <label for= "colorFruits"> Qual a cor dessa fruta: </label>
+            <input id = "colorFruits"type="color" list="fruitsColors" />
+            <datalist id = "fruitsColors">
+                <option>#FF0000</option>
+                <option>#FF4500</option>
+                <option>#FFFF00</option>
+                <option>#ffa500</option>
+                <option>#993399</option>
+            </datalist>
+
+        </fieldset>
+
+    </form>
+
+
+    <form id="buttons" action="POST">
+
+        <fieldset>
+
+            <legend>Botões</legend>
+
+            <button type="submit" form="Contato">Enviar</button>
+            <button type="reset">Limpar</button>
+            <button disabled>Disabled</button>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
