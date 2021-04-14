@@ -1,0 +1,50 @@
+<form id="formUrl">
+
+    <fieldset>
+
+        <legend>
+            URL 01
+        </legend>
+
+        <input type="url"
+        placeholder="http://example.com"
+        minlength="10"
+        maxlength="100"
+        size="40"
+        required
+        >
+
+        <legend>
+            URL 02 pattern
+        </legend>
+
+        <input type="url"
+        placeholder="http://example.com"
+        pattern=".*\.com\.br\/.*"
+        title="Somente domínios com .com.br serão aceitos"
+        required
+        >
+
+        <legend>
+            URL 03 List
+        </legend>
+
+        <datalist id="urlData">
+            <option>
+                https://cadastro.kovi.com.br/
+            </option>
+            <option>
+                https://google.com.br/
+            </option>
+        </datalist>
+        <input type="url"
+        placeholder="http://example.com"
+        list="urlData"
+        required
+        >
+
+    </fieldset>
+
+    <button type="submit">Enviar</button>
+
+</form>
