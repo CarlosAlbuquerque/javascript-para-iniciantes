@@ -26,3 +26,6 @@ describe('Testes para alunos', () => {
     })
 
 })
+
+// DEVE => QUANDO
+// SHOULD => WHEN
